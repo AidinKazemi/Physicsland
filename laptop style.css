@@ -1,0 +1,40 @@
+
+.lotmargin{
+background-color: orange;
+border-color: darkorange;
+
+
+}
+.lotmargin:hover{
+	transition: all 0.25s;
+transform: scale(1.1);
+
+}
+
+#colorhover:hover{
+	background-color: darkorange;
+border-color: darkorange
+
+}
+
+#gutterlot{
+	height: 16rem;
+}
+body, html{
+ 
+ width: 100%;
+ height: 100%;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#lineorange{
+    border: 3px solid orange;
+    max-width: 60px;
+    color: orange;
+    background-color: orange;
+    opacity: 1;
+}
